@@ -1,6 +1,26 @@
 CutcutGo installation
 =====================
 
+Is my Cricut Maker Compatible ?
+-------------------------------
+
++----------------+-------------+---------------------+-----------------+----------------+-------------------+------------+
+| ModelName      | ModelNumber | Released between*   | Validated S/N   | PCB revision   | MCU               | Compatible |
++================+=============+=====================+=================+================+===================+============+
+| Cricut Maker 1 | CXPL301     | XX/XX/XX - XX/XX/XX | * xxxxxxxxxxxx  | ATH-84-100-X12 | PIC??             | ??         |
++----------------+-------------+---------------------+-----------------+----------------+-------------------+------------+
+| Cricut Maker 1 | CXPL301     | ?? - 30/12/20 - ??  | * Q301220xxxxx  | ATH-84-112-X3  | PIC32MX470F512L   | YES        |
++----------------+-------------+---------------------+-----------------+----------------+-------------------+------------+
+| Cricut Maker 1 | CXPL301     | XX/XX/XX - NOW      | * T050322xxxxx  | ATH-84-113-X1  | PIC32MK1024MCF100 | NOT YET    |
++----------------+-------------+---------------------+-----------------+----------------+-------------------+------------+
+| Cricut Maker 3 | CXPL303     | 01/06/21 - NOW      | * M200222xxxxx  | SCM-84-100-X7  | PIC32MK1024MCF100 | NOT YET    |
++----------------+-------------+---------------------+-----------------+----------------+-------------------+------------+
+
+* How to know the release date of my machine ?
+  Look at the Serial Number (S/N) on the sticker at the bottom of the Cricut.
+  The S/N format is : XDDMMYYX1234 where DDMMYY is the production date
+
+
 Prepare your Cricut Maker for programming
 -----------------------------------------
 
@@ -33,7 +53,7 @@ Flashing the CutcutGo bootloader
 
 First, download and install `Microchip MPLABX <https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide>`_ on your
 system. You will only need MPLabX' Integrated Programming Environment (IPE) utility to re-program the main micro-controller.
-Download the `latest version of CutcutGo Bootloader <https://github.com/virtualabs/cutcutgo-bl/releases/download/v1.0/cutcutgo_bootloader_v1.0.hex>`_ and save
+Download the `latest version of CutcutGo Bootloader <https://github.com/virtualabs/cutcutgo-bl/releases/tag/latest>`_ and save
 it.
 
 Connect 6 wires from the debug interface to a Microchip SNAP (or PicKit3), as shown below.
