@@ -4,19 +4,19 @@ CutcutGo installation
 Is my Cricut Maker Compatible ?
 -------------------------------
 
-.. |ATH-84-100-X12| image:: _static/pcb/ATH-84-100-X12.jpg
+.. |ATH-84-100-X12| image:: _static/images/pcb/ATH-84-100-X12.jpg
    :width: 20pt
    :height: 20pt
 
-.. |ATH-84-112-X3| image:: _static/pcb/ATH-84-112-X3.jpg
+.. |ATH-84-112-X3| image:: _static/images/pcb/ATH-84-112-X3.jpg
    :width: 20pt
    :height: 20pt
 
-.. |ATH-84-113-X1| image:: _static/pcb/ATH-84-113-X1.jpg
+.. |ATH-84-113-X1| image:: _static/images/pcb/ATH-84-113-X1.jpg
    :width: 20pt
    :height: 20pt
 
-.. |SCM-84-100-X7| image:: _static/pcb/SCM-84-100-X7.jpg
+.. |SCM-84-100-X7| image:: _static/images/pcb/SCM-84-100-X7.jpg
    :width: 20pt
    :height: 20pt
 
