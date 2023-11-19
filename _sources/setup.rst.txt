@@ -7,18 +7,22 @@ Is my Cricut Maker Compatible ?
 .. |ATH-84-100-X12| image:: _static/images/pcb/ATH-84-100-X12.jpg
    :width: 20pt
    :height: 20pt
+   :alt: The Maker 1 ATH-84-100-X12 PCB.
 
 .. |ATH-84-112-X3| image:: _static/images/pcb/ATH-84-112-X3.jpg
    :width: 20pt
    :height: 20pt
+   :alt: The Maker 1 ATH-84-112-X3 PCB.
 
 .. |ATH-84-113-X1| image:: _static/images/pcb/ATH-84-113-X1.jpg
    :width: 20pt
    :height: 20pt
+   :alt: The Maker 1 ATH-84-113-X1 PCB.
 
 .. |SCM-84-100-X7| image:: _static/images/pcb/SCM-84-100-X7.jpg
    :width: 20pt
    :height: 20pt
+   :alt: The Maker 3 SCM-84-100-X7 PCB.
 
 +---------+---------+-----------------+----------------+------------------+-------------------+------------+
 | Machine | Model # | S/N begins with | PCB revision   | PCB              | MCU Reference     | Compatible |
